@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <button>Get Data</button>
+  <form class="form" method="POST" action="/posts" >
+    <input type="text" name="author" placeholder="author" />
+    <input type="text" name="title" placeholder="title" />
+    <input type="text" name="content" placeholder="content" />
+    <button class="submit-data" type="submit">Submit</button>
+  </form>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="public-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  .container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .button-container {
+      width: 80%;
+
+      display: flex;
+      justify-content: center;
+
+      button {
+        width: 20%;
+      }
+    }
+
+    .postContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      width: 80%;
+
+      .post {
+        width: 20%;
+
+        border: 1px solid black;
+        margin: 2%;
+        padding: 1%;
+      }
+    }
+  }
+}
